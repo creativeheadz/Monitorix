@@ -436,17 +436,17 @@ if($tf{twhen} eq "year") {
 
 if($RRDs::VERSION > 1.2) {
 	push(@version12, "--slope-mode");
-	push(@version12, "--font=LEGEND:7:");
-	push(@version12, "--font=TITLE:9:");
-	push(@version12, "--font=UNIT:8:");
+	push(@version12, "--font=LEGEND:8:");
+	push(@version12, "--font=TITLE:10:");
+	push(@version12, "--font=UNIT:9:");
 	if($RRDs::VERSION >= 1.3) {
 		push(@version12, "--font=DEFAULT:0:Mono");
 	}
 	if($tf{twhen} eq "day") {
 		push(@version12, "--x-grid=HOUR:1:HOUR:6:HOUR:6:0:%R");
 	}
-	push(@version12_small, "--font=TITLE:8:");
-	push(@version12_small, "--font=UNIT:7:");
+	push(@version12_small, "--font=TITLE:9:");
+	push(@version12_small, "--font=UNIT:8:");
 	if($RRDs::VERSION >= 1.3) {
 		push(@version12_small, "--font=DEFAULT:0:Mono");
 	}
