@@ -1,120 +1,106 @@
 body {
-    background-color: black;
-    font-family: Verdana, sans-serif;
-    color: white;
+    background-color: #0D0D14;
+    font-family: -apple-system, 'Segoe UI', Roboto, Verdana, sans-serif;
+    color: #D0D0D0;
 }
- 
+
 .index-body {
-    background-color: black;
-    font-family: Verdana, sans-serif;
-    color: #888888;
+    background-color: #0D0D14;
+    font-family: -apple-system, 'Segoe UI', Roboto, Verdana, sans-serif;
+    color: #888898;
 }
- 
+
 table {
-    background: #888888;
-    border: 1px black;
-    border-left: 1px outset #b2b2b2;
-    border-top: 1px outset #b2b2b2;
-    border-right: 1px outset #7a7a7a;
-    border-bottom: 1px outset #7a7a7a;
-    border-spacing: 5px;
+    background: #1E1E2A;
+    border: 1px solid #2A2A3A;
+    border-radius: 6px;
+    border-spacing: 4px;
 }
- 
+
 th, td {
-    background: #333333;
-    border: 1px black;
-    border-left: 1px inset #6f6f6f;
-    border-top: 1px inset #6f6f6f;
-    border-right: 1px inset #b2b2b2;
-    border-bottom: 1px inset #b2b2b2;
-    padding: 0;
+    background: #151520;
+    border: 1px solid #2A2A3A;
+    border-radius: 3px;
+    padding: 2px;
 }
- 
+
 .cgi-header-table {
-    background: #888888;
-    border: 1px black;
-    border-left: 1px outset #b2b2b2;
-    border-top: 1px outset #b2b2b2;
-    border-right: 1px outset #7a7a7a;
-    border-bottom: 1px outset #7a7a7a;
-    border-spacing: 5px;
-    font-size: 24px;
+    background: #1E1E2A;
+    border: 1px solid #2A2A3A;
+    border-radius: 6px;
+    border-spacing: 4px;
+    font-size: 22px;
 }
- 
- 
- 
+
 .startpage-header-table {
     border: 0;
     background: transparent;
 }
- 
+
 .table-module {
-    background: #888888;
-    border: 1px black;
-    border-left: 1px outset #b2b2b2;
-    border-top: 1px outset #b2b2b2;
-    border-right: 1px outset #7a7a7a;
-    border-bottom: 1px outset #7a7a7a;
-    border-spacing: 5px;
+    background: #1E1E2A;
+    border: 1px solid #2A2A3A;
+    border-radius: 6px;
+    border-spacing: 4px;
 }
- 
+
 .td-title {
-    background-color: #333333;
-    font-family: Verdana, sans-serif;
-    color: #888800;
+    background-color: #1E1E2A;
+    font-family: -apple-system, 'Segoe UI', Roboto, sans-serif;
+    color: #6CB4EE;
 }
 
 .td-title a {
-    color: #888800;
+    color: #6CB4EE;
 }
- 
+
 .td-valign-top {
     vertical-align: top;
 }
- 
+
 .td-title-host {
-    font-family: Verdana, sans-serif;
-    background-color: black;
+    font-family: -apple-system, 'Segoe UI', Roboto, sans-serif;
+    background-color: #0D0D14;
 }
- 
+
 .td-note {
-    background-color: #333333;
-    font-family: Verdana, sans-serif;
-    color: #888800;
+    background-color: #1E1E2A;
+    font-family: -apple-system, 'Segoe UI', Roboto, sans-serif;
+    color: #6CB4EE;
 }
- 
+
 .text-title-date {
-    font-family: Verdana, sans-serif;
-    color: #888888;
+    font-family: -apple-system, 'Segoe UI', Roboto, sans-serif;
+    color: #666680;
 }
- 
+
 .text-title {
-    font-family: Verdana, sans-serif;
-    color: #888800;
+    font-family: -apple-system, 'Segoe UI', Roboto, sans-serif;
+    color: #6CB4EE;
 }
 
 .text-title-multihost-one {
-    background-color: #333333;
-    font-family: Verdana, sans-serif;
-    color: white;
+    background-color: #1E1E2A;
+    font-family: -apple-system, 'Segoe UI', Roboto, sans-serif;
+    color: #D0D0D0;
 }
 
 .text-title-multihost {
-    font-family: Verdana, sans-serif;
-    color: white;
+    font-family: -apple-system, 'Segoe UI', Roboto, sans-serif;
+    color: #D0D0D0;
 }
- 
+
 .text-copyright {
     font-size: 10px;
-    color: white;
+    color: #666680;
 }
- 
+
 .text-size {
     font-size: 5;
 }
- 
+
 .history01 {
-    color: #888888;
+    color: #666680;
     position: fixed;
     left: 1em;
     font-size: 32px;
